@@ -1,0 +1,26 @@
+
+.logtable {
+    width: 100%
+}
+
+.logtd {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: monospace
+}
+
+.logtdodd {
+    background-color: #f8f8f8;
+}
+
+.selected {
+    background-color: #d0d0ff;    
+}
+
+.prob {
+    background-color: #ffd0d0;    
+}
+
+.cause {
+    background-color: #d0d0ff;    
+}
