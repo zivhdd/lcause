@@ -5,8 +5,7 @@ from att import *
 import torch
 from event import Event, load_event_list
 from sampler import Sampler
-from model import  train_ext
-from att import EventPredictor
+from train import  train_ext
 
 import logview
 from collections import defaultdict
