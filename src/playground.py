@@ -16,7 +16,7 @@ logging.basicConfig(format='%(asctime)-15s %(message)s', level=logging.INFO)
 
 mode = "ball"
 logs = load_event_list(f"../data/{mode}.json")
-model_path = f"../models/{mode}.json"
+model_path = f"../models/{mode}.mdl"
 result_path = f"../results/{mode}.html"
 
 if mode == "ball":    
