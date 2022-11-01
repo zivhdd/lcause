@@ -1,8 +1,9 @@
 
 ## replace with import
 import os, logging
-from att import *
 import torch
+
+from linear import *
 from event import Event, load_event_list
 from sampler import Sampler
 from train import  train_ext
